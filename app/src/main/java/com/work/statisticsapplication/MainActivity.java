@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button line = (Button)findViewById(R.id.btn_line);
         line.setOnClickListener(this);
+
+        Button drawer = (Button)findViewById(R.id.btn_drawer);
+        drawer.setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +51,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_line:
                 Intent intent4 = new Intent(this, LineActivity.class);
                 startActivity(intent4);
+                break;
+
+            case R.id.btn_drawer:
+                Intent intent5 = new Intent(this, DrawerActivity.class);
+                startActivity(intent5);
                 break;
             default:
                 break;
