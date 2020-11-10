@@ -26,11 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.github.mikephil.charting.charts.BarChart
-            android:id="@+id/bar_chart"
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/horizontal_bar_chart"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="220dp">
-        </com.github.mikephil.charting.charts.BarChart>
+        </com.github.mikephil.charting.charts.HorizontalBarChart>
     </LinearLayout>
 </ScrollView>
